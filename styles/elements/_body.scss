@@ -1,0 +1,10 @@
+body {
+  background: url(../assets/images/bg-pattern-top.svg) -70px -400px no-repeat,
+    url(../assets/images/bg-pattern-bottom.svg) 1000px 500px no-repeat,
+    var(--c-primary);
+  font-family: sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

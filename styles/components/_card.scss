@@ -1,0 +1,52 @@
+.card { 
+  border: .5px var(--c-black);
+  max-width: 90%;
+  width: 384px;
+  border-radius: var(--b-radius);
+  box-shadow: 0 5px 20px 7px rgba(63, 24, 24, .2);
+
+  &__head {
+    display: flex;
+    background-image: url(../assets/images/bg-pattern-card.svg);
+    border-top-left-radius: var(--b-radius);
+    border-top-right-radius: var(--b-radius);
+
+    &-image {
+      border-radius: 50%;
+      width: 130px;
+      border: 4px solid var(--c-white);
+      margin: auto;
+      transform: translateY(65px);
+    }
+  }
+
+  &__body {
+    background: var(--c-white);
+    display: flex;
+    flex-direction: column;
+
+    &-title {
+      margin: auto;
+      padding: 90px 0 10px;
+    }
+
+    &-title2 {
+      color: var(--c-gray);
+    }
+
+    &-description {
+      margin: auto;
+      padding: 0 0 50px;
+      color: var(--c-gray);
+    }
+  }
+
+  &__footer {
+    background: var(--c-white);
+    border-bottom-right-radius: var(--b-radius);
+    border-bottom-left-radius: var(--b-radius);
+    display: flex;
+    justify-content: space-around;
+    border-top: .5px solid var(--c-lightgray);
+  }
+}

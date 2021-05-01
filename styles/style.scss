@@ -20,7 +20,8 @@ body {
 
 .card {
   border: .5px var(--c-black);
-  min-width: 384px;
+  max-width: 90%;
+  width: 384px;
   border-radius: var(--b-radius);
   box-shadow: 0 5px 20px 7px rgba(63, 24, 24, .2);
 

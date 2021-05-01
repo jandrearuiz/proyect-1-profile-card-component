@@ -42,6 +42,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-*.css
-
 # End of https://www.toptal.com/developers/gitignore/api/sass,vscode,windows
